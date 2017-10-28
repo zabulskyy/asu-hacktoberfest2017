@@ -46,3 +46,12 @@ try:
         print "Heap Sort incorrect."
 except:
     print "Heapsort function errored or is incomplete."
+
+try:
+    from selection import selection
+    if(selection(list(nums)) == sortedNums):
+        print "Selection Sort success!"
+    else:
+        print "Selection Sort incorrect."
+except:
+    print "Selection function errored or is incomplete."
